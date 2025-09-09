@@ -1,0 +1,5 @@
+VectorSpaceModel.egg-info/
+*__init__.py
+__pycache__/
+*.py[cod]
+logs/

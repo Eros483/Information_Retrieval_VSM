@@ -127,6 +127,7 @@ class VSM:
         
         Returns:
             list: List of top 10 or less relevant documents
+            
             float: Time taken to process the query
         """
         start_time=time.perf_counter() #timer start

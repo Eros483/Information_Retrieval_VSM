@@ -161,7 +161,7 @@ class VSM:
         dict_terms=list(self.dictionary.keys())
         
         for dict_term in dict_terms:
-            similarity=jellyfish.jaro_winkler(term, dict_term)
+            similarity=jellyfish.jaro_winkler_similarity(term, dict_term)
             if similarity>=threshold and similarity>best_similarity:
                 best_similarity=similarity
                 best_match=dict_term
@@ -177,6 +177,74 @@ class VSM:
             
         return best_match
     
+    def build_tfidf_matrix(self, doc_texts_list):
+        """
+        Tokenizes and preprocesses each document again.
+
+        Args:
+            doc_texts_list: list of texts retrieved from each document
+        
+        Returns:
+            nparray: tfidf weights
+        """
+        all_docs_tokens= [self.preprocess(text) for text in doc_texts_list]
+        vocab= {}
+        df= Counter()
+
+        for tokens in all_docs_tokens:
+            unique_terms= set(tokens)
+            for t in unique_terms:
+                df[t]+= 1
+            for t in tokens:
+                if t not in vocab:
+                    vocab[t]= len(vocab)
+
+        N= len(all_docs_tokens)
+        vocab_size= len(vocab)
+        tfidf= np.zeros((N, vocab_size))
+
+        for i, tokens in enumerate(all_docs_tokens):
+            tf= Counter(tokens)
+            for term, freq in tf.items():
+                if term in vocab:
+                    j= vocab[term]
+                    tf_weight= 1 + math.log10(freq)
+                    idf= math.log10(N / (1 + df[term]))
+                    tfidf[i, j]= tf_weight * idf
+        return tfidf
+
+    def kmeans(self, X, k, max_iter=100):
+        """
+        Basic reimplementation of K-means from scikit-learn
+        Args:
+            X: list of points
+            k: number of clusters to be selected
+            max_iter: number of cycles over which clusters to be chosen
+        
+        Returns:
+            nparray (labels): 1D array of cluster labels
+            nparray (centroids): 2D array of cluster centers of shape (k, num_features)
+        """
+        np.random.seed(42)
+        idx= np.random.choice(len(X), k, replace=False)
+        centroids= X[idx]
+
+        for _ in range(max_iter):
+            distances= np.linalg.norm(X[:, None] - centroids[None, :], axis=2)
+            labels= np.argmin(distances, axis=1)
+
+            new_centroids= np.array([
+                X[labels== i].mean(axis=0) if np.any(labels==i) else centroids[i]
+                for i in range(k)
+            ])
+
+            if np.allclose(new_centroids, centroids):
+                break
+            centroids= new_centroids
+
+        return labels, centroids
+
+
     def perform_clustering(self)->None:
         """
         Perform k means clustering on the documents using tf-idf weights
@@ -187,31 +255,18 @@ class VSM:
             
         logger.info(f"Performing K-means clustering with {self.n_clusters} clusters...")
         
-        #Create TF-IDF vectors for clustering
-        doc_texts_list=[]
-        doc_ids=[]
-        
-        for doc_id, text in self.doc_texts.items():
-            doc_texts_list.append(text)
-            doc_ids.append(doc_id)
-        
-        vectorizer = TfidfVectorizer(max_features=1000, stop_words='english')
-        tfidf_matrix = vectorizer.fit_transform(doc_texts_list)
-        
-        kmeans = KMeans(n_clusters=self.n_clusters, random_state=42, n_init=10)
-        cluster_labels = kmeans.fit_predict(tfidf_matrix)
-        
-        #Store clusters
+        doc_texts_list = [self.doc_texts[doc_id] for doc_id in self.doc_texts]
+        doc_ids = list(self.doc_texts.keys())
+
+        tfidf_matrix = self.build_tfidf_matrix(doc_texts_list)
+        cluster_labels, centroids = self.kmeans(tfidf_matrix, self.n_clusters)
+
         for i, doc_id in enumerate(doc_ids):
-            self.doc_clusters[doc_id] = cluster_labels[i]
-        
-        #Store cluster centers
+            self.doc_clusters[doc_id] = int(cluster_labels[i])
         for i in range(self.n_clusters):
-            self.cluster_centers[i] = kmeans.cluster_centers_[i]
-        
-        #Log cluster distribution
-        cluster_counts = Counter(cluster_labels)
-        logger.info(f"Clustering completed. Distribution: {dict(cluster_counts)}")
+            self.cluster_centers[i] = centroids[i]
+
+        logger.info("Clustering completed.")
 
 
     def build_index(self) -> None:

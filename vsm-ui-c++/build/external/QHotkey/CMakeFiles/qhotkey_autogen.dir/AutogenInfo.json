@@ -1,0 +1,173 @@
+{
+	"BUILD_DIR" : "/home/s-uryansh/Desktop/College/CSD358_IR/Assignment1/Information_Retrieval_VSM/vsm-ui-c++/build/external/QHotkey/qhotkey_autogen",
+	"CMAKE_BINARY_DIR" : "/home/s-uryansh/Desktop/College/CSD358_IR/Assignment1/Information_Retrieval_VSM/vsm-ui-c++/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/s-uryansh/Desktop/College/CSD358_IR/Assignment1/Information_Retrieval_VSM/vsm-ui-c++/build/external/QHotkey",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/s-uryansh/Desktop/College/CSD358_IR/Assignment1/Information_Retrieval_VSM/vsm-ui-c++/external/QHotkey",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/s-uryansh/Desktop/College/CSD358_IR/Assignment1/Information_Retrieval_VSM/vsm-ui-c++/external/QHotkey/CMakeLists.txt",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicCMakeHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtInstallPaths.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Targets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6VersionlessAliasTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtFeature.cmake",
+		"/usr/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtFeatureCommon.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicAppleHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicCMakeHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicExternalProjectHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFinalizerHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFindPackageHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicGitHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicPluginHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomCpeHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomDepHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomFileHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomOpsHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomPurlHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomPythonHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTargetHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTestHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicToolHelpers.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicWalkLibsHelpers.cmake",
+		"/usr/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Dependencies.cmake",
+		"/usr/share/cmake-3.31/Modules/CPack.cmake",
+		"/usr/share/cmake-3.31/Modules/CPackComponent.cmake",
+		"/usr/share/cmake-3.31/Templates/CPackConfig.cmake.in",
+		"/usr/share/cmake-3.31/Templates/CPackConfig.cmake.in",
+		"/usr/share/cmake-3.31/Modules/FindX11.cmake",
+		"/usr/share/cmake-3.31/Modules/FindFreetype.cmake",
+		"/usr/share/cmake-3.31/Modules/SelectLibraryConfigurations.cmake",
+		"/usr/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.31/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.31/Modules/FindFontconfig.cmake",
+		"/usr/share/cmake-3.31/Modules/FindPkgConfig.cmake",
+		"/usr/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.31/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.31/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.31/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake",
+		"/usr/share/cmake-3.31/Modules/CheckLibraryExists.cmake",
+		"/usr/share/cmake-3.31/Modules/GNUInstallDirs.cmake",
+		"/usr/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake",
+		"/usr/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake",
+		"/usr/share/cmake-3.31/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/s-uryansh/Desktop/College/CSD358_IR/Assignment1/Information_Retrieval_VSM/vsm-ui-c++",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/home/s-uryansh/Desktop/College/CSD358_IR/Assignment1/Information_Retrieval_VSM/vsm-ui-c++/build/external/QHotkey/qhotkey_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "qhotkey_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/s-uryansh/Desktop/College/CSD358_IR/Assignment1/Information_Retrieval_VSM/vsm-ui-c++/external/QHotkey/QHotkey/qhotkey.h",
+			"MU",
+			"CDZSFYPHEU/moc_qhotkey.cpp",
+			null
+		],
+		[
+			"/home/s-uryansh/Desktop/College/CSD358_IR/Assignment1/Information_Retrieval_VSM/vsm-ui-c++/external/QHotkey/QHotkey/qhotkey_p.h",
+			"MU",
+			"CDZSFYPHEU/moc_qhotkey_p.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/s-uryansh/Desktop/College/CSD358_IR/Assignment1/Information_Retrieval_VSM/vsm-ui-c++/build/external/QHotkey/qhotkey_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/s-uryansh/Desktop/College/CSD358_IR/Assignment1/Information_Retrieval_VSM/vsm-ui-c++/build/external/QHotkey/qhotkey_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_NO_SIGNALS_SLOTS_KEYWORDS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/s-uryansh/Desktop/College/CSD358_IR/Assignment1/Information_Retrieval_VSM/vsm-ui-c++/external/QHotkey/QHotkey",
+		"/usr/include/x86_64-linux-gnu/qt6/QtCore",
+		"/usr/include/x86_64-linux-gnu/qt6",
+		"/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt6/QtGui",
+		"/usr/include",
+		"/usr/include/c++/14",
+		"/usr/include/x86_64-linux-gnu/c++/14",
+		"/usr/include/c++/14/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/14/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-std=gnu++17",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/s-uryansh/Desktop/College/CSD358_IR/Assignment1/Information_Retrieval_VSM/vsm-ui-c++/build/external/QHotkey/qhotkey_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/s-uryansh/Desktop/College/CSD358_IR/Assignment1/Information_Retrieval_VSM/vsm-ui-c++/build/external/QHotkey/CMakeFiles/qhotkey_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt6/libexec/uic",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 8,
+	"SETTINGS_FILE" : "/home/s-uryansh/Desktop/College/CSD358_IR/Assignment1/Information_Retrieval_VSM/vsm-ui-c++/build/external/QHotkey/CMakeFiles/qhotkey_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/s-uryansh/Desktop/College/CSD358_IR/Assignment1/Information_Retrieval_VSM/vsm-ui-c++/external/QHotkey/QHotkey/qhotkey.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/s-uryansh/Desktop/College/CSD358_IR/Assignment1/Information_Retrieval_VSM/vsm-ui-c++/external/QHotkey/QHotkey/qhotkey_x11.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

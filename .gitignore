@@ -3,4 +3,8 @@ VectorSpaceModel.egg-info/
 __pycache__/
 *.py[cod]
 logs/
+<<<<<<< HEAD
 vsm-ui-c++/external/
+=======
+vsm-ui-c++/external/
+>>>>>>> ba4ab0791fc3ec9fbddb740d7194eff10c6e3ca2

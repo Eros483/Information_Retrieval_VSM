@@ -13,6 +13,7 @@ import time
 import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.feature_extraction.text import TfidfVectorizer
+import numpy as np
 
 logger=get_logger(__name__)
 nltk.download("stopwords")

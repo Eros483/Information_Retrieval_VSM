@@ -1,0 +1,5 @@
+set(__QT_DEPLOY_TARGET_qhotkey_FILE C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/external/QHotkey/qhotkey.lib)
+set(__QT_DEPLOY_TARGET_qhotkey_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_vsm_FILE C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/vsm.exe)
+set(__QT_DEPLOY_TARGET_vsm_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_vsm_RUNTIME_DLLS C:/Qt/6.9.2/msvc2022_64/bin/Qt6Widgetsd.dll;C:/Qt/6.9.2/msvc2022_64/bin/Qt6Networkd.dll;C:/Qt/6.9.2/msvc2022_64/bin/Qt6Guid.dll;C:/Qt/6.9.2/msvc2022_64/bin/Qt6Cored.dll)

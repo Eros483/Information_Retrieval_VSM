@@ -1,0 +1,19 @@
+# ninja log v6
+21	2319	7799351741393554	external/QHotkey/qhotkey_autogen/timestamp	28b9d49dc8b0a5e5
+21	2319	7799351741393554	external/QHotkey/qhotkey_autogen/mocs_compilation.cpp	28b9d49dc8b0a5e5
+21	2319	7799351741393554	C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/external/QHotkey/qhotkey_autogen/timestamp	28b9d49dc8b0a5e5
+21	2319	7799351741393554	C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/external/QHotkey/qhotkey_autogen/mocs_compilation.cpp	28b9d49dc8b0a5e5
+2323	4269	7799351741819043	external/QHotkey/CMakeFiles/qhotkey.dir/qhotkey_autogen/mocs_compilation.cpp.obj	a3cc4e4138fa4647
+2327	4554	7799351741943997	external/QHotkey/CMakeFiles/qhotkey.dir/QHotkey/qhotkey.cpp.obj	330590d4e476acc7
+2332	4578	7799351741979503	external/QHotkey/CMakeFiles/qhotkey.dir/QHotkey/qhotkey_win.cpp.obj	987f027d944f623c
+4578	4652	7799351764452847	external/QHotkey/qhotkey.lib	94541f3b94db7b05
+4652	5658	7799351774476109	vsm_autogen/timestamp	3b808259408f8651
+4652	5658	7799351774476109	vsm_autogen/mocs_compilation.cpp	3b808259408f8651
+4652	5658	7799351774476109	C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/vsm_autogen/timestamp	3b808259408f8651
+4652	5658	7799351774476109	C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/vsm_autogen/mocs_compilation.cpp	3b808259408f8651
+5677	7764	7799351775434708	CMakeFiles/vsm.dir/SearchBar.cpp.obj	f8cd29ab699ccd8f
+5683	7832	7799351775478833	CMakeFiles/vsm.dir/ApiManager.cpp.obj	2b6e26f1a6b33c3c
+5667	8446	7799351775276970	CMakeFiles/vsm.dir/main.cpp.obj	7f24fb3ba3959b6c
+5662	8595	7799351775276970	CMakeFiles/vsm.dir/vsm_autogen/mocs_compilation.cpp.obj	a5b6ca365b5fdf4b
+5672	9115	7799351775276970	CMakeFiles/vsm.dir/vsm.cpp.obj	b4317b3ca63f458c
+9116	9536	7799351809736533	vsm.exe	5ef2a094b203d97

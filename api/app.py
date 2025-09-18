@@ -3,6 +3,7 @@ from pydantic import BaseModel
 from typing import List, Tuple, Optional
 import uvicorn
 import os
+from fastapi.middleware.cors import CORSMiddleware
 
 from src.vsm_basic import VSM
 from utils.logger import get_logger
@@ -14,7 +15,13 @@ app = FastAPI(
     description="Search documents using lnc.ltc vector space model with Soundex fallback",
     version="1.0.0"
 )
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"], 
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 #globally declaring VSM engine
 vsm_engine: Optional[VSM]=None
 current_corpus: Optional[str]=None

@@ -259,7 +259,7 @@ vsm::vsm(QWidget *parent)
 
                     hlayout->addWidget(iconLabel);
                     hlayout->addWidget(fileLabel, 5);
-                    hlayout->addWidget(scoreLabel);
+                    // hlayout->addWidget(scoreLabel);
 
                     QListWidgetItem *listItem = new QListWidgetItem();
                     listItem->setSizeHint(itemWidget->sizeHint());

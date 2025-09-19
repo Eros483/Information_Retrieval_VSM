@@ -1,4 +1,4 @@
-C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/vsm_autogen/EWIEGA46WW/moc_SearchBar.cpp: C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/SearchBar.h \
+C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/windows/vsm_autogen/EWIEGA46WW/moc_SearchBar.cpp: C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/SearchBar.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.26100.0/ucrt/assert.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.26100.0/ucrt/corecrt.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.26100.0/ucrt/corecrt_malloc.h \
@@ -55,6 +55,7 @@ C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/
   C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/VC/Tools/MSVC/14.44.35207/include/version \
   C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/VC/Tools/MSVC/14.44.35207/include/yvals.h \
   C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/VC/Tools/MSVC/14.44.35207/include/yvals_core.h \
+  C:/Qt/6.9.2/msvc2022_64/include/QtCore/QString \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/q17memory.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/q20functional.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/q20iterator.h \

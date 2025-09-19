@@ -1,4 +1,4 @@
-C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/vsm_autogen/EWIEGA46WW/moc_vsm.cpp: C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/vsm.h \
+C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/windows/vsm_autogen/EWIEGA46WW/moc_vsm.cpp: C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/vsm.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.26100.0/ucrt/assert.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.26100.0/ucrt/corecrt.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.26100.0/ucrt/corecrt_malloc.h \
@@ -57,6 +57,7 @@ C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/
   C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/VC/Tools/MSVC/14.44.35207/include/yvals_core.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/QFlags \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/QIODevice \
+  C:/Qt/6.9.2/msvc2022_64/include/QtCore/QJsonArray \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/QJsonDocument \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/QList \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/QLoggingCategory \
@@ -96,6 +97,8 @@ C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/qbytearraylist.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/qbytearrayview.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/qcalendar.h \
+  C:/Qt/6.9.2/msvc2022_64/include/QtCore/qcborcommon.h \
+  C:/Qt/6.9.2/msvc2022_64/include/QtCore/qcborvalue.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/qchar.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/qcompare.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/qcompare_impl.h \
@@ -135,8 +138,10 @@ C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/qitemselectionmodel.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/qiterable.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/qiterator.h \
+  C:/Qt/6.9.2/msvc2022_64/include/QtCore/qjsonarray.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/qjsondocument.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/qjsonparseerror.h \
+  C:/Qt/6.9.2/msvc2022_64/include/QtCore/qjsonvalue.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/qlatin1stringview.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/qline.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/qlist.h \
@@ -212,6 +217,7 @@ C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/qtypes.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/qurl.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/qutf8stringview.h \
+  C:/Qt/6.9.2/msvc2022_64/include/QtCore/quuid.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/qvariant.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/qversiontagging.h \
@@ -240,7 +246,6 @@ C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/
   C:/Qt/6.9.2/msvc2022_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtGui/qpaintdevice.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtGui/qpalette.h \
-  C:/Qt/6.9.2/msvc2022_64/include/QtGui/qpen.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtGui/qpicture.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtGui/qpixelformat.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtGui/qpixmap.h \
@@ -251,10 +256,7 @@ C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/
   C:/Qt/6.9.2/msvc2022_64/include/QtGui/qrgba64.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtGui/qscreen.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtGui/qscreen_platform.h \
-  C:/Qt/6.9.2/msvc2022_64/include/QtGui/qtextcursor.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtGui/qtextdocument.h \
-  C:/Qt/6.9.2/msvc2022_64/include/QtGui/qtextformat.h \
-  C:/Qt/6.9.2/msvc2022_64/include/QtGui/qtextoption.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtGui/qtgui-config.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtGui/qtguiexports.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtGui/qtguiglobal.h \
@@ -286,11 +288,10 @@ C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/
   C:/Qt/6.9.2/msvc2022_64/include/QtNetwork/qtnetworkexports.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtNetwork/qtnetworkglobal.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/QLabel \
-  C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/QLineEdit \
   C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/QListWidget \
   C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/QMainWindow \
-  C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/QPushButton \
-  C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/qabstractbutton.h \
+  C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/QProgressBar \
+  C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/QWidget \
   C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/qabstractitemdelegate.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/qabstractitemview.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/qabstractscrollarea.h \
@@ -298,11 +299,10 @@ C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/
   C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/qabstractspinbox.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/qframe.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/qlabel.h \
-  C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/qlineedit.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/qlistview.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/qlistwidget.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/qmainwindow.h \
-  C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/qpushbutton.h \
+  C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/qprogressbar.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/qrubberband.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/qslider.h \
@@ -315,6 +315,9 @@ C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/
   C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/qtwidgetsglobal.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/qwidget.h \
   C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/ApiManager.h \
-  C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/SearchBar.h \
+  C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/CorpusInputWidget.h \
+  C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/ErrorBanner.h \
+  C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/QueryInputWidget.h \
+  C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/ResultsListWidget.h \
   C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/external/QHotkey/QHotkey/QHotkey \
   C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/external/QHotkey/QHotkey/qhotkey.h

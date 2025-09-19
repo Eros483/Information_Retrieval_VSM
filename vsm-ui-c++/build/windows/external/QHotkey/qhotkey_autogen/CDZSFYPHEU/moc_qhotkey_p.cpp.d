@@ -1,4 +1,4 @@
-C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/external/QHotkey/qhotkey_autogen/CDZSFYPHEU/moc_qhotkey_p.cpp: C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/external/QHotkey/QHotkey/qhotkey_p.h \
+C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/windows/external/QHotkey/qhotkey_autogen/CDZSFYPHEU/moc_qhotkey_p.cpp: C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/external/QHotkey/QHotkey/qhotkey_p.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/QAbstractNativeEventFilter \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/QGlobalStatic \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/QLoggingCategory \

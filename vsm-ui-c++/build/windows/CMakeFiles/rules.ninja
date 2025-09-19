@@ -65,7 +65,7 @@ rule CXX_STATIC_LIBRARY_LINKER__qhotkey_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\surya\OneDrive\Desktop\Files\Information_Retrieval_VSM-main\vsm-ui-c++ -BC:\Users\surya\OneDrive\Desktop\Files\Information_Retrieval_VSM-main\vsm-ui-c++\build
+  command = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\surya\OneDrive\Desktop\Files\Information_Retrieval_VSM-main\vsm-ui-c++ -BC:\Users\surya\OneDrive\Desktop\Files\Information_Retrieval_VSM-main\vsm-ui-c++\build\windows
   description = Re-running CMake...
   generator = 1
 

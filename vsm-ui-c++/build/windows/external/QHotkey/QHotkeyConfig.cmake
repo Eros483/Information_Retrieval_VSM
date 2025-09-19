@@ -60,7 +60,7 @@ set_target_properties(qhotkey PROPERTIES
 set_property(TARGET qhotkey APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(qhotkey PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/external/QHotkey/qhotkey.lib"
+  IMPORTED_LOCATION_DEBUG "C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/windows/external/QHotkey/qhotkey.lib"
   )
 
 # This file does not depend on other imported targets which have

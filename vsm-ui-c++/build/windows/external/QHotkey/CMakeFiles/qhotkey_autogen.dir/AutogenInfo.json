@@ -1,8 +1,8 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/external/QHotkey/qhotkey_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/external/QHotkey",
+	"BUILD_DIR" : "C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/windows/external/QHotkey/qhotkey_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/windows",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/windows/external/QHotkey",
 	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/external/QHotkey",
 	"CMAKE_EXECUTABLE" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
@@ -62,7 +62,7 @@
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/external/QHotkey/qhotkey_autogen/deps",
+	"DEP_FILE" : "C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/windows/external/QHotkey/qhotkey_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "qhotkey_autogen/timestamp",
 	"HEADERS" : 
 	[
@@ -80,8 +80,8 @@
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/external/QHotkey/qhotkey_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/external/QHotkey/qhotkey_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/windows/external/QHotkey/qhotkey_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/windows/external/QHotkey/qhotkey_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -126,12 +126,12 @@
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 6,
-	"PARSE_CACHE_FILE" : "C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/external/QHotkey/CMakeFiles/qhotkey_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/windows/external/QHotkey/CMakeFiles/qhotkey_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.9.2/msvc2022_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/6.9.2/msvc2022_64/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 9,
-	"SETTINGS_FILE" : "C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/external/QHotkey/CMakeFiles/qhotkey_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/windows/external/QHotkey/CMakeFiles/qhotkey_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[

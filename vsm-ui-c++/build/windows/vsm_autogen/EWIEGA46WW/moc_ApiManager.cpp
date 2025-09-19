@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../ApiManager.h"
+#include "../../../../ApiManager.h"
 #include <QtNetwork/QSslError>
 #include <QtCore/qmetatype.h>
 

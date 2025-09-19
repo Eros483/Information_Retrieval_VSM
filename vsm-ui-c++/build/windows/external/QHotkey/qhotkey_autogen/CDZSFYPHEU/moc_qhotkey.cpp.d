@@ -1,4 +1,4 @@
-C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/external/QHotkey/qhotkey_autogen/CDZSFYPHEU/moc_qhotkey.cpp: C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/external/QHotkey/QHotkey/qhotkey.h \
+C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/build/windows/external/QHotkey/qhotkey_autogen/CDZSFYPHEU/moc_qhotkey.cpp: C:/Users/surya/OneDrive/Desktop/Files/Information_Retrieval_VSM-main/vsm-ui-c++/external/QHotkey/QHotkey/qhotkey.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/QLoggingCategory \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/QObject \
   C:/Qt/6.9.2/msvc2022_64/include/QtCore/QPair \

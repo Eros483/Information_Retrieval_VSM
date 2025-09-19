@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../../external/QHotkey/QHotkey/qhotkey.h"
+#include "../../../../../../external/QHotkey/QHotkey/qhotkey.h"
 #include <QtCore/qmetatype.h>
 
 #include <QtCore/qtmochelpers.h>

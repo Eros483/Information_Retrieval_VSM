@@ -19,7 +19,7 @@
 - Supports fallback searches via `fuzzy` searches measuring `Jaro-Winkler similarity`, and `Soundex` algorithm.
 - Utilises `K-means clustering` via tf-idf weights based cluster generation.
 - Supports information retrieval from documents such as PDFs, TXTs, DOCX and OCR.
-- 
+
 ---
 ## Installation Instructions
 1. Navigate to [releases](https://github.com/Eros483/Information_Retrieval_VSM/releases/tag/VSM_UI_v2_Win) section.

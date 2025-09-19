@@ -28,9 +28,9 @@ Navigate to `http://localhost:8000/docs` for instructions on how to use the API.
 ## Demo
 
 ### Linux
-[![Linux Demo](public/pictures/linux.png)](https://github.com/Eros483/Information_Retrieval_VSM/public/videos/VSM-Linux.mp4)
+[![Linux Demo](public/pictures/linux.png)](https://github.com/Eros483/Information_Retrieval_VSM/blob/main/public/videos/VSM-Linux.mp4)
 
 ### Windows
-[![Windows Demo](public/pictures/windows.png)](https://github.com/Eros483/Information_Retrieval_VSM/public/videos/VSM-Windows.mp4)
+[![Windows Demo](public/pictures/windows.png)](https://github.com/Eros483/Information_Retrieval_VSM/blob/main/public/videos/VSM-Windows.mp4)
 
 

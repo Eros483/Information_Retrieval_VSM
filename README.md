@@ -3,6 +3,15 @@
   <em>Assignment 1 for CSD358 Information Retrieval</em>
 </div>
 
+## Demo
+
+### Linux
+[![Linux Demo](public/pictures/linux.png)](https://www.youtube.com/watch?v=x-KFU4setRM)
+
+
+### Windows
+[![Windows Demo](public/pictures/windows.png)](https://www.youtube.com/watch?v=FRl_FN2sPvc)
+
 ## Provided Features
 - Ranked retrieval utilising vector space indexing, and cosine similarity based search.
 - Follows lnt.ltc ranking schemes.
@@ -12,12 +21,14 @@
 - Supports information retrieval from documents such as PDFs, TXTs, DOCX and OCR.
 - 
 ---
-## Installation
+## Installation Instructions
+1. Navigate to [releases](https://github.com/Eros483/Information_Retrieval_VSM/releases/tag/VSM_UI_v2_Win) section.
+2. Follow provided instructions.
+---
+## Developer Usage
 ```
 git clone https://github.com/Eros483/Information_Retrieval_VSM.git
 cd Information_Retrieval_VSM
-pip install -e .
-uvicorn api.app:app --reload
 ```
 ---
 
@@ -25,13 +36,6 @@ uvicorn api.app:app --reload
 Navigate to `http://localhost:8000/docs` for instructions on how to use the API.
 
 ---
-## Demo
 
-### Linux
-[![Linux Demo](public/pictures/linux.png)](https://www.youtube.com/watch?v=x-KFU4setRM)
-
-
-### Windows
-[![Windows Demo](public/pictures/windows.png)](https://www.youtube.com/watch?v=FRl_FN2sPvc)
 
 

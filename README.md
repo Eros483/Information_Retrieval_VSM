@@ -28,10 +28,10 @@ Navigate to `http://localhost:8000/docs` for instructions on how to use the API.
 ## Demo
 
 ### Linux
-[![Linux Demo](https://img.youtube.com/vi/x-KFU4setRM/0.jpg)](https://www.youtube.com/watch?v=x-KFU4setRM)
+[![Linux Demo](public/pictures/linux.png)](https://www.youtube.com/watch?v=x-KFU4setRM)
 
 
 ### Windows
-[![Windows Demo](public/pictures/windows.png)](https://github.com/Eros483/Information_Retrieval_VSM/blob/main/public/videos/VSM-Windows.mp4)
+[![Windows Demo](public/pictures/windows.png)](https://www.youtube.com/watch?v=FRl_FN2sPvc)
 
 

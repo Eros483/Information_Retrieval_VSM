@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+530d3204965bd455c82432801d036de8 CMakeFiles/vsm_autogen
+97bf1acac363adfa1461937907aeaaf8 external/QHotkey/CMakeFiles/qhotkey_autogen
+b05d327ada2416f5a02e5dee9cba26f7 external/QHotkey/qhotkey_autogen/timestamp
+3b8bbbb9326d8d8411cdbfcd03c7cec8 vsm_autogen/timestamp

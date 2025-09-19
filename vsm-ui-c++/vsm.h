@@ -2,13 +2,15 @@
 #define VSM_H
 
 #include <QMainWindow>
-#include <QListWidget>
-#include <QLabel>
 #include <QKeyEvent>
-#include <QPushButton>
-#include "SearchBar.h"
-#include "ApiManager.h"
 #include <QHotkey>
+#include "ApiManager.h"
+#include <QProgressBar>
+// new modular widgets
+#include "CorpusInputWidget.h"
+#include "QueryInputWidget.h"
+#include "ResultsListWidget.h"
+#include "ErrorBanner.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class vsm; }
@@ -19,7 +21,7 @@ class vsm : public QMainWindow
     Q_OBJECT
 
 public:
-    vsm(QWidget *parent = nullptr);
+    explicit vsm(QWidget *parent = nullptr);
     ~vsm();
 
 protected:
@@ -28,17 +30,18 @@ protected:
 private:
     Ui::vsm *ui;
 
-    SearchBar *corpusBar;
-    SearchBar *queryBar;
-    QLabel *errorLabel;
-    QListWidget *resultsList;
+    QString baseUrl = "http://localhost:8000";
+
+    QProgressBar *loadingBar;
+    CorpusInputWidget *corpusWidget;
+    QueryInputWidget *queryWidget;
+    ResultsListWidget *resultsWidget;
+    ErrorBanner *errorBanner;
+
     QHotkey *toggleHotkey;
     ApiManager *api;
 
-    QLabel *corpusLabel;
-    QLabel *queryLabel;
-
-    QPushButton *browseButton;
+    void setupHotkey();
 };
 
 #endif // VSM_H

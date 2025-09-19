@@ -35,6 +35,16 @@ set(PROJECT_SOURCES
 qt_add_executable(vsm
     MANUAL_FINALIZATION
     ${PROJECT_SOURCES}
+    CorpusInputWidget.h
+    CorpusInputWidget.cpp
+    QueryInputWidget.h
+    QueryInputWidget.cpp
+    ResultsListWidget.h
+    ResultsListWidget.cpp
+    ErrorBanner.cpp
+    ErrorBanner.h
+
+
 )
 
 # Link libraries
